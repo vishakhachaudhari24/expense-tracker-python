@@ -1,3 +1,9 @@
+"""
+Expense Tracker Application
+Author: Vishakha Chaudhari
+Tech Stack: Python, SQLite
+Description: Console-based app to track and analyze expenses
+"""
 import sqlite3
 
 # Connect to SQLite database (creates file if not exists)
@@ -103,3 +109,4 @@ def main():
 
 main()
 conn.close()
+
